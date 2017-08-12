@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		356364EF1F3EFC8000A6018F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 356364EE1F3EFC8000A6018F /* README.md */; };
+		35B0C0A61F3F04D4006A277A /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B0C0A51F3F04D4006A277A /* PostViewController.swift */; };
 		35BBF9EE1F3EEDEF00782E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBF9ED1F3EEDEF00782E09 /* AppDelegate.swift */; };
-		35BBF9F01F3EEDEF00782E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBF9EF1F3EEDEF00782E09 /* ViewController.swift */; };
 		35BBF9F31F3EEDEF00782E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BBF9F11F3EEDEF00782E09 /* Main.storyboard */; };
 		35BBF9F51F3EEDEF00782E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35BBF9F41F3EEDEF00782E09 /* Assets.xcassets */; };
-		35BBF9F81F3EEDEF00782E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BBF9F61F3EEDEF00782E09 /* LaunchScreen.storyboard */; };
 		35BBFA031F3EEDF000782E09 /* FamiliarDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBFA021F3EEDF000782E09 /* FamiliarDemoTests.swift */; };
 		35BBFA0F1F3EEE4800782E09 /* Familiar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBFA0E1F3EEE4800782E09 /* Familiar.swift */; };
-		35CD91091F3EFADB00C97E05 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 35CD91081F3EFADB00C97E05 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		356364EE1F3EFC8000A6018F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		35B0C0A51F3F04D4006A277A /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		35BBF9EA1F3EEDEF00782E09 /* FamiliarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamiliarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BBF9ED1F3EEDEF00782E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35BBF9EF1F3EEDEF00782E09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		35BBF9F21F3EEDEF00782E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35BBF9F41F3EEDEF00782E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		35BBF9F71F3EEDEF00782E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35BBF9F91F3EEDEF00782E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35BBF9FE1F3EEDF000782E09 /* FamiliarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamiliarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BBFA021F3EEDF000782E09 /* FamiliarDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamiliarDemoTests.swift; sourceTree = "<group>"; };
 		35BBFA041F3EEDF000782E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35BBFA0E1F3EEE4800782E09 /* Familiar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Familiar.swift; path = ../../../Familiar/Familiar.swift; sourceTree = "<group>"; };
-		35CD91081F3EFADB00C97E05 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +61,7 @@
 		35BBF9E11F3EEDEF00782E09 = {
 			isa = PBXGroup;
 			children = (
-				35CD91081F3EFADB00C97E05 /* README.md */,
+				356364EE1F3EFC8000A6018F /* README.md */,
 				35BBF9EC1F3EEDEF00782E09 /* FamiliarDemo */,
 				35BBFA011F3EEDF000782E09 /* FamiliarDemoTests */,
 				35BBF9EB1F3EEDEF00782E09 /* Products */,
@@ -84,11 +82,10 @@
 			children = (
 				35BBFA0D1F3EEE1700782E09 /* Familiar */,
 				35BBF9ED1F3EEDEF00782E09 /* AppDelegate.swift */,
-				35BBF9EF1F3EEDEF00782E09 /* ViewController.swift */,
 				35BBF9F11F3EEDEF00782E09 /* Main.storyboard */,
 				35BBF9F41F3EEDEF00782E09 /* Assets.xcassets */,
-				35BBF9F61F3EEDEF00782E09 /* LaunchScreen.storyboard */,
 				35BBF9F91F3EEDEF00782E09 /* Info.plist */,
+				35B0C0A51F3F04D4006A277A /* PostViewController.swift */,
 			);
 			path = FamiliarDemo;
 			sourceTree = "<group>";
@@ -195,7 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35BBF9F81F3EEDEF00782E09 /* LaunchScreen.storyboard in Resources */,
 				35BBF9F51F3EEDEF00782E09 /* Assets.xcassets in Resources */,
 				35BBF9F31F3EEDEF00782E09 /* Main.storyboard in Resources */,
 			);
@@ -215,9 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35BBF9F01F3EEDEF00782E09 /* ViewController.swift in Sources */,
+				35B0C0A61F3F04D4006A277A /* PostViewController.swift in Sources */,
 				35BBFA0F1F3EEE4800782E09 /* Familiar.swift in Sources */,
-				35CD91091F3EFADB00C97E05 /* README.md in Sources */,
+				356364EF1F3EFC8000A6018F /* README.md in Sources */,
 				35BBF9EE1F3EEDEF00782E09 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,14 +243,6 @@
 				35BBF9F21F3EEDEF00782E09 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		35BBF9F61F3EEDEF00782E09 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35BBF9F71F3EEDEF00782E09 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
